@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+        name: spring-boot-docker-image6
+spec:
+        selector:
+                matchLabels:
+                        app: spring-boot-docker-image6
+        replicas: 2
+        template:
+                metadata:
+                        labels:
+                                app: spring-boot-docker-image6
+                spec:
+                        containers:
+                                - name: spring-boot-docker-image6
+                                  image: spring-boot-docker-image6
+                                  imagePullPolicy: IfNotPresent
+                                  ports:
+                                          - containerPort: 8085
