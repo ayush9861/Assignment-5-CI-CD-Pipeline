@@ -37,7 +37,7 @@ If everything, goes well you will ended up in the jenkins interface comes withou
 **docker-build-step: 2.9**
 
 
-# Things to Configure:
+## Things to Configure:
 
 Before, building any project configure the seetings by going to **Manage jenkins > Global Tool Configuration** and configure all the required setting for like **JDK**, **maven** etc.
 
@@ -58,13 +58,21 @@ Step6- If everything goes well it will run your project.
 
 ## Code Buid ScreenShorts:
 
+![](https://i.imgur.com/8hSpkX6.png)
 
 
+![](https://i.imgur.com/atIYlXg.png)
 
+
+![](https://i.imgur.com/tLhBNvP.png)
 
 ## Docker Build Screenshorts:
-
 **Note: Make sure to run Docker before staring the build in the jenkins.**
+
+![](https://i.imgur.com/wfgWFHO.png)
+
+
+![](https://i.imgur.com/9CBWhmc.png)
 
 
 
